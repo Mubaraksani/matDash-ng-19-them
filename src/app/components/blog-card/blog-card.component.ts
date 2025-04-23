@@ -30,8 +30,8 @@ export class AppBlogCardsComponent {
     {
       id: 1,
       time: '2 mins Read',
-      imgSrc: '/assets/images/blog/blog-img1.jpg',
-      user: '/assets/images/profile/user-1.jpg',
+      imgSrc: './assets/images/blog/blog-img1.jpg',
+      user: './assets/images/profile/user-1.jpg',
       title: 'As yen tumbles, gadget-loving Japan goes for iPhones',
       views: '9,125',
       category: 'Social',
@@ -41,8 +41,8 @@ export class AppBlogCardsComponent {
     {
       id: 2,
       time: '2 mins Read',
-      imgSrc: '/assets/images/blog/blog-img2.jpg',
-      user: '/assets/images/profile/user-2.jpg',
+      imgSrc: './assets/images/blog/blog-img2.jpg',
+      user: './assets/images/profile/user-2.jpg',
       title:
         'Intel loses bid to revive antitrust case against patent foe Fortress',
       views: '9,125',
@@ -53,8 +53,8 @@ export class AppBlogCardsComponent {
     {
       id: 3,
       time: '2 mins Read',
-      imgSrc: '/assets/images/blog/blog-img3.jpg',
-      user: '/assets/images/profile/user-3.jpg',
+      imgSrc: './assets/images/blog/blog-img3.jpg',
+      user: './assets/images/profile/user-3.jpg',
       title: 'COVID outbreak deepens as more lockdowns loom in China',
       views: '9,125',
       category: 'Health',
