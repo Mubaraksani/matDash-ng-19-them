@@ -22,11 +22,11 @@ jobs:
         run: npm ci
 
       - name: Build Angular app
-        run: npm run build -- --base-href=https://mubaraksani.github.io/matDash-ng-19-them/
+        run: npm run build --base-href /matDash-ng-19-them/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/Matdash
+          folder: dist/Matdash/browser
           token: ${{ secrets.GH_TOKEN }}
